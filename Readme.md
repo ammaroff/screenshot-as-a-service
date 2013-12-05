@@ -10,6 +10,8 @@ First [install](http://code.google.com/p/phantomjs/wiki/Installation) phantomjs,
 $ npm install
 ```
 
+## Deploying for AppHarbor
+
 Run the app:
 
 ```
