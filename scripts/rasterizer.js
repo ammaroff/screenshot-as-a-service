@@ -8,7 +8,7 @@
  */
 var basePath = phantom.args[0] || '/tmp/'; 
 
-var port  = phantom.args[1] || 3001;
+var port  = process.env.PORT;
 
 var defaultViewportSize = phantom.args[2] || '';
 defaultViewportSize = defaultViewportSize.split('x');
@@ -50,7 +50,7 @@ server = require('webserver').create();
  * javascriptEnabled: false
  * userAgent: Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+
  */ 
-service = server.listen("/", function(request, response) {
+service = server.listen(port, function(request, response) {
   if (request.url == '/healthCheck') {
     response.statusCode = 200;
     response.write('up');
