@@ -12,7 +12,7 @@ $ npm install
 
 ## Deploying for AppHarbor 
 
-Run the app:
+Run the app: 
 
 ```
 $ node app
