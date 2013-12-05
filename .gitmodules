@@ -1,3 +1,0 @@
-[submodule "node_modules/node-config"]
-	path = node_modules/node-config
-	url = git@github.com:lorenwest/node-config.git
