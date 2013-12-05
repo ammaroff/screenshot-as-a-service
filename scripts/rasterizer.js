@@ -50,7 +50,7 @@ server = require('webserver').create();
  * javascriptEnabled: false
  * userAgent: Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+
  */ 
-service = server.listen(port, function(request, response) {
+service = server.listen("/", function(request, response) {
   if (request.url == '/healthCheck') {
     response.statusCode = 200;
     response.write('up');
