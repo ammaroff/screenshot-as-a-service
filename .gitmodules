@@ -1,0 +1,6 @@
+[submodule "node_modules/node-cookie-signature"]
+	path = node_modules/node-cookie-signature
+	url = git@github.com:visionmedia/node-cookie-signature.git
+[submodule "node_modules/cookie-signature"]
+	path = node_modules/cookie-signature
+	url = git@github.com:visionmedia/node-cookie-signature.git
